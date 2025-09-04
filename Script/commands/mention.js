@@ -13,7 +13,7 @@ module.exports.run = async ({ api, event, args }) => {
  const { mentions, threadID } = event;
 
  if (Object.keys(mentions).length === 0) {
- return api.sendMessage("Boss আপনি কাউকে মেনশন করেননি!\n\nExample: /mention @SA HU 10", threadID);
+ return api.sendMessage("Boss আপনি কাউকে মেনশন করেননি!\n\nExample: /mention @MAHIR", threadID);
  }
 
  const mentionID = Object.keys(mentions)[0];
@@ -25,7 +25,7 @@ module.exports.run = async ({ api, event, args }) => {
  for (let i = 0; i < repeatCount; i++) {
  try {
  await api.sendMessage({
- body: `${mentionName}\n\nচিপা থেকে বের হও🐸🔪`,
+ body: `${mentionName}\n\n__-হালা লুচ্চা চিপা থেকে বের হ-!!🐸😾🔪`,
  mentions: [{ tag: mentionName, id: mentionID }]
  }, threadID);
  
