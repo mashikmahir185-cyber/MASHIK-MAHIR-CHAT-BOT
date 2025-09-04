@@ -13,7 +13,7 @@ module.exports.run = async ({ api, event, args }) => {
  const { mentions, threadID } = event;
 
  if (Object.keys(mentions).length === 0) {
- return api.sendMessage("Boss আপনি কাউকে মেনশন করেননি!\n\nExample: /mention @MAHIR", threadID);
+ return api.sendMessage("𝐁𝐎𝐒𝐒 আপনি কাউকে মেনশন করেন নি-!!🥺\n\nExample: /mention @MAHIR", threadID);
  }
 
  const mentionID = Object.keys(mentions)[0];
