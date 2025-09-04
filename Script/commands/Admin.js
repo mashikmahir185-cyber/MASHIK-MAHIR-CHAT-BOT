@@ -37,7 +37,7 @@ module.exports.run = async function({ api, event }) {
 │ 📘 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸:
 │ https://www.facebook.com/THE.FATHER.OFF.GALIBAZ.MAHIR.5
 │ 💬 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽:
-│ https://wa.me/0197993****
+│ 𝘄𝗽-দিলে বউ ঝাড়ু দিয়া পিটাবে-!!🥺💔
 └───────────────⭓
 
 ┌───────────────⭓
