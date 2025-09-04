@@ -41,7 +41,7 @@ try {
 	ctx.drawImage(await Canvas.loadImage(avatar), 48, 410, 111, 111);
 	const imageBuffer = canvas.toBuffer();
 	fs.writeFileSync(path_toilet,imageBuffer);
-	 api.sendMessage({attachment: fs.createReadStream(path_toilet, {'highWaterMark': 128 * 1024}), body: "বলদ মেয়েদের চিপায় ধরা খাইছে😁😁"}, event.threadID, () => fs.unlinkSync(path_toilet), event.messageID);
+	 api.sendMessage({attachment: fs.createReadStream(path_toilet, {'highWaterMark': 128 * 1024}), body: "__-বলদ মেয়েদের চিপায় ধরা খাইছে-!!😁😂🤪"}, event.threadID, () => fs.unlinkSync(path_toilet), event.messageID);
 }
 catch(e) {api.sendMessage(e.stack, event.threadID )}
  }
