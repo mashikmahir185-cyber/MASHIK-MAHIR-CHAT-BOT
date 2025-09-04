@@ -50,7 +50,7 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 ├─ 💌 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :
 │ m.me/THE.FATHER.OFF.GALIBAZ.MAHIR.5
 ├─ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
-│ wa.me/+880197993****
+│ 𝘄𝗽-দিলে বউ ঝাড়ু দিয়া পিটাবে-!!🥺💔
 │
 ╰───────⭓
 
