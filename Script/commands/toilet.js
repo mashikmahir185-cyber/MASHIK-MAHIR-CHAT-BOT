@@ -106,7 +106,7 @@ module.exports.run = async function ({ event, api, args, Currencies }) {
  'one': senderID,
  'two': mentionedID
  }).then(outputPath => api.sendMessage({
- 'body': "বেশি বাল পাকলামির জন্য তোরে টয়লেটে ফেলে দিলাম🤣🤮",
+ 'body': "__-বেশি বাল পাকলামির জন্য তোরে টয়লেটে ফেলে দিলাম-গু খা-!!🐸🤮",
  'attachment': fs.createReadStream(outputPath)
  }, threadID, () => fs.unlinkSync(outputPath), messageID));
  }
